@@ -1,0 +1,45 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container 
+{
+    max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.login 
+{
+    background: rgba(89, 205, 234, 0.41);
+    padding: 100px;
+    .box 
+    {
+     background: rgb(241, 240, 240);
+     width: fit-content;
+     padding: 30px;
+     margin: auto;
+     text-align: center;
+    }
+    input 
+    {
+        background: rgb(224, 221, 221);
+        padding: 5px;
+        border: 1px solid rgb(224, 221, 221) ;
+        border-radius: 5px ;
+    }
+    .input 
+    {
+        margin: 4px;
+    }
+    button 
+    {
+        background: rgb(96, 96, 221);
+        color: white;
+        border: 1px solid rgb(80, 80, 240);
+        margin: 14px;
+    }
+}
